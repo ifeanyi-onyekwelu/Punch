@@ -1,0 +1,41 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Arial, Helvetica, sans-serif;
+  background: #000;
+  color: aliceblue;
+  height: 100vh;
+}
+
+.punch-api__container,
+.punch-api-container__header {
+  height: 100%;
+}
+
+.punch-api-container__header {
+  display: flex;
+  align-items: center;
+  place-content: center;
+  flex-flow: column;
+  gap: 20px;
+}
+
+.punch-api-container__header h1 {
+  font-size: 4rem;
+}
+
+.punch-api-container__header h3 {
+  font-size: 2.1rem;
+}
+
+.punch-api-container__header p {
+  font-size: 4rem;
+}
+
+.punch-api-container__header a {
+  color: #fff;
+}
